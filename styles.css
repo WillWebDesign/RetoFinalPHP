@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  //background-color: rgba(87,199,193,1);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: block;
+  text-align: center;
+  height: inherit;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+div p {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+div {
+  overflow: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+button{
+	background: none;
+    border: none;
+}
+input{
+	border-color: rgba(71,71,71,.4);
+  border: 2px dashed rgba(0,0,0,.4);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+    color: #474747;
+    width: 90%;
+    resize: none;
+    background: 0 0;
+    outline: 0;
+    font-family: Karla,"Helvetica Neue",sans serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 3px;
+    margin: 20px;
+    position:relative;
+    margin-right: 0;
+    float: left;
+}
+.contenorItems{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.contenorItems img{
+  margin: 18px;
+  float:left;
+  position: relative;
+
+}
+.formulario button{
+  border-color: rgba(71,71,71,.4);
+  border: 2px dashed rgba(0,0,0,.4);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #474747;
+  font-family: Karla,"Helvetica Neue",sans serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
